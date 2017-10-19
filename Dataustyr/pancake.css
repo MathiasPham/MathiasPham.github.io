@@ -1,0 +1,23 @@
+body {
+  background-color:gray  
+}
+
+table {
+    border: solid 2px red;
+    border-collapse: collapse;
+    }
+     
+    th,td {
+    padding-left:5px;
+    }
+    th {
+    background: paleturquoise ;
+    }
+     
+    tr:nth-child(odd) {
+    background: rgba(100,10,10,0.2);
+    }
+     
+    td:nth-child(odd) {
+    background: rgba(49, 165, 165, 0.20);
+    }
