@@ -85,3 +85,23 @@
       opacity: 0; 
     }
   }
+
+  #flex {
+    
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background: url("lightbg.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: stretch;
+    }
+    
+    #flex div {
+    background: red;
+    width: 10em;
+    height: 10em;
+    margin: 1em;
