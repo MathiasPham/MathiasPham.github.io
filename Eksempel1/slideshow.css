@@ -1,0 +1,25 @@
+:root {
+    --bakgrunn: yellow; 
+}
+
+#slideshow {
+    background: url("kina2.png");
+    position: relative;
+    left: 2em;
+    top: 2em;
+    width: 90%;
+    height: calc(100% - 4em);
+    border: 5px solid gray; 
+    border-radius: 2em;
+    background-color: var(--bakgrunn);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: slideshow 6s ease-in infinite;
+}
+
+@keyframes slideshow {
+    0% { background-image: url(kina2.png)}
+    33% { background-image: url(wallpaper.gif)}
+    66% { background-image: url(kina2.png)}
+}

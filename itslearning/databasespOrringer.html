@@ -1,0 +1,78 @@
+I relasjonsdatabaser bruker vi SQL (structured query language - strukturert spørrespråk)
+
+til å hente ut data fra databasen. Da kan vi be om å få en liste over alle kunder
+
+som har ubetalte faktura til samla verdi over 500kr
+
+eks. (avkorta)
+
+select userid,adress,total from USER inner join ACCOUNT on (USER.id = ACCOUNT.id) ....
+
+ 
+
+I firebase kan vi ikke bruke SQL - vi må bruke de innebygde funksjonene
+
+orderByChild() orderByKey() og orderByValue()
+
+sammen med filtreringsfunksjonene
+
+limitToFirst() limitToLast() startAt() endAt() equalTo()
+
+ 
+
+Et eksempel:
+
+Vi skal finne alle dyr som eies av en gitt kunde (kundenr 1001).
+
+let ref = firebase.database().ref("dyr").orderByChild("kundenr").equalTo(1001);
+ 
+Vi skal finne ut hvem som eier Nusse
+
+let ref = firebase.database().ref("dyr").orderByChild("navn").equalTo("Nusse");
+
+Nå kan vi hente ut kundenr fra ref
+
+ref.once("value").then(function (snapshot) {
+let dyret = snapshot.val();
+if (dyret) {
+console.log(dyret.kundenr); // skriver ut kundenr
+}
+});
+ 
+
+Tabellen Kunde
+
+{
+"1001" : {
+"epost" : "o.le@o.com",
+"etternavn" : "olsen",
+"fornavn" : "Ole",
+"mobil" : 3234343
+},
+"1002" : {
+"etternavn" : "pettersen",
+"fornavn" : "per",
+"mobil" : 1234444
+}
+}
+ 
+
+Tabellen Dyr
+
+{
+"947" : {
+"art" : "katt",
+"fdato" : 2011,
+"kjønn" : "M",
+"kundenr" : 1001,
+"navn" : "bolla",
+"vekt" : 25
+},
+"948" : {
+"art" : "katt",
+"kjønn" : "F",
+"kundenr" : 1002,
+"navn" : "Nusse",
+"vekt" : 4
+}
+}

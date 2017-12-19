@@ -1,0 +1,51 @@
+For å lage en tabell i firebase må du velge prosjekt og gå inn på fanen database.
+
+Deretter klikker du på + knappen og definerer tabellnavnet.
+
+Klikk så på + knappen igjen og legg til nøkkel for en post
+
+Klikk på + igjen og legg inn felt for tabellen.
+
+Merk at nøkkelen ikke er et felt i tabellen.
+
+ 
+
+I tabellen under er 1001,1002 nøkkelverider i tabellen elev.
+
+etternavn og fornavn er vanlige felt.
+
+ELEV
+{
+"1001" : {
+"epost" : "o.le@o.com",
+"etternavn" : "olsen",
+"fornavn" : "Ole",
+"mobil" : 3234343
+},
+"1002" : {
+"etternavn" : "pettersen",
+"fornavn" : "per",
+"mobil" : 1234444
+}
+}
+ 
+ 
+For at databasen skal fungere godt med store datamengder er det ofte nødvendig med en indeks.
+
+Typisk vil firebase varsle om at du trenger en indeks på et felt når du bruker
+
+orderByChild på feltet. Gitt denne spørringen:
+
+let ref = firebase.database().ref("dyr").orderByChild("kundenr").equalTo(valgt);
+ 
+Her vil firebase opplyse om at vi trenger en indeks på kundenr.
+
+ 
+
+For å legge til en indeks på feltet kundenr i tabellen må vi skrive følgende i RULES.
+
+ 
+
+ "dyr" : {
+       ".indexOn":"kundenr"
+    }

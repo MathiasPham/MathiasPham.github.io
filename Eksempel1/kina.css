@@ -1,0 +1,32 @@
+#kina {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    background: url("kina.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: gaaTur 3s linear infinite;
+}
+
+@keyframes gaaTur {
+    0% { top:80%; left: 0%; transform: rotate(0deg);}
+    23% { top:80%; left: 90%; transform: rotate(0deg);}
+    24% { top:80%; left: 90%;  transform: rotate(-90deg);}
+    48% { top:0%; left: 90%;  transform: rotate(-90deg);}
+    50% { top:0%; left: 90%; transform: rotate(-180deg);}
+    75% { top:0%; left: 0%;  transform: rotate(-180deg);}
+    78% { top:0%; left: 0%;  transform: rotate(-270deg);}
+    98% { top:80%; left: 0%;  transform: rotate(-270deg);}
+    100% { top:80%; left: 0%; transform: rotate(-360deg);}
+}
+
+#innhold2 {
+    position: absolute;
+    left: 20%;
+    bottom: 15%;
+    width: 80%;
+    height: 70%;
+    background-color: darkred;
+}

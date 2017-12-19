@@ -1,0 +1,9 @@
+div p span {
+    color: blue;
+    font-size: 1em;
+}
+
+div div:first-letter {
+    color: green;
+    font-size: 3em;
+}

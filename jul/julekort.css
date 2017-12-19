@@ -1,0 +1,123 @@
+#sky {
+      width: 100%;
+      height: 50%;
+      display: grid;
+      grid-template-columns: repeat(13, 1fr);
+      grid-gap: 40px;
+      grid-auto-rows: minmax(40px, auto);
+    }
+    
+    .star {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      background-color: #FFFFD2;
+      border-radius: 50%;
+      animation: blink 1s alternate infinite;
+    }
+
+    @keyframes blink {
+        0% { 
+            background-color: #FFFFD2;
+            width: 10px;
+            height: 10px;
+        }
+        100% { 
+            background-color: black;
+            width: 2px;
+            height: 2px;
+        }
+    }
+
+    #kanon {
+        position: absolute;
+        left: 20px;
+        bottom: -174px;
+        width: 20em;
+        height: 20em;
+        background-image: url("canon.png");
+        background-repeat: no-repeat;
+        background-size: 100px;
+    }
+    
+    #snow {
+        position: relative;
+        width: 100%;
+        height: 100em;
+        background-image: url("jul2.jpg");
+        background-size: 1282px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+    }
+    
+    #santa {
+        position: absolute;
+        left: -200px;
+        top:50px;
+        width: 250px;   
+        height: 180px;
+        animation: drive 3s 1s linear infinite;
+        background-image: url("santa3.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px;
+    }
+    
+    @keyframes drive {
+        0% { left: -230px; }
+       100% { left: 150vw; } 
+    }
+
+    .pakke {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 30px;
+        width: 30px;
+        background-color: red;
+        border-left: solid green 21px;
+        border-right: solid green 21px;
+        animation: drop 1s ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes drop {
+        0% { top: 100px;   }
+        100% { top: 80vh;  }
+    }
+
+    @keyframes dale {
+        0% { top: 0px;}
+    }
+    .powder,
+    .snow {
+        position: absolute;
+        left: 0ox;
+        top: 0px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: white;
+        animation: dale 5s linear infinite;
+        animation-fill-mode: forwards;
+    }
+    .powder {
+        top: 300px;
+        animation: fyke 5s linear infinite;
+    }
+
+    @keyframes fyke {
+        0% { left: 80px;   top:300px   }
+        10% { left: 90px;   top:350px   }
+        20% { left: 110px;   top:360px   }
+        30% { left: 120px;   top:370px   }
+        40% { left: 140px;   top:380px   }
+        50% { left: 160px;   top:390px   }
+        60% { left: 170px;   top:400px   }
+        70% { left: 180px;   top:420px   }
+        80% { left: 190px;   top:430px   }
+        90% { left: 200px;   top:450px   }
+        100% { left: 220px;  top: 500px; }
+    }

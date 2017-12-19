@@ -1,0 +1,41 @@
+#meny {
+    background-image: linear-gradient(to right,orange,#ccc);;
+    position: absolute;
+        left: 0;
+        bottom: 15%;
+        width: 20%;
+        height: 70%;
+        }
+
+    #tittel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background: orange;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 2em;
+    font-family: impact;
+    }
+    #innhold {
+    position: absolute;
+    left: 20%;
+    bottom: 15%;
+    width: 80%;
+    height: 70%;
+    background: yellow;
+    background-size: cover;
+    background-position: center; 
+    }
+    #bunn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background: white;
+    background-size: cover;
+    }
