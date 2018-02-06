@@ -1,0 +1,51 @@
+{
+    "ski":{
+        "randone":{
+            "K2-33":{
+                "produsent": "Wölk",
+                "navn": "K2 180",
+                "pris": 5600,
+                "bilde":"k2180.jpg"
+
+            },
+            "K2-34":{
+                "produsent": "Wölk",
+                "navn": "K2 170",
+                "pris": 6600,
+                "bilde":"k2170.jpg"
+            }
+        },
+        "truger": {
+            "trekmaster1": {
+                "produsent": "Bobcat",
+                "navn": "TR 17 truger",
+                "pris": 800,
+                "bilde":"tr17.jpg"
+            }
+        },
+        "staver": {
+            "Luki1": {
+                "produsent": "Mentz",
+                "navn": "Luki 1 telemark",
+                "pris": 900,
+                "bilde":"luki1.jpg"
+            }
+        },
+        "cola": {
+            "Pham1": {
+                "produsent": "Mathias",
+                "navn": "P 1 cola",
+                "pris": 50,
+                "bilde": "cola1.jpg"
+            }
+        },
+        "fanta": {
+            "Lol1": {
+                "produsent": "Rofl",
+                "navn": "L 1 fanta",
+                "pris": 50,
+                "bilde": "fanta1.jpg"
+            }
+        }
+    }
+}

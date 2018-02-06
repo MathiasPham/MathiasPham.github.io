@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <link rel="stylesheet" href="rediger.css">
+    <script src="rediger.js"></script>
+    <title>Rediger risk</title>
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            <h4>Rediger land</h4>
+            <form>
+                <div>
+                    <div>Land</div>
+                    <input id="land" type="text">
+                </div>
+        </div>
+        <div>
+            <div>Region</div>
+            <input id="region" type="text">
+                </div>
+        </div>
+        <div>
+        <button type="button" id="lagreland">Legg til land</button>
+    </div>
+    </div>
+    </form>
+    </div>
+    <div>
+        <h4>Rediger kort</h4>
+        <form>
+            <div>
+                <div>Kort (region)</div>
+                <input id="kort" type="text">
+            </div>
+    </div>
+    <div>
+        <div>Antall</div>
+        <input id="antall" type="number">
+    </div>
+    </div>
+    <div>
+        <button type="button" id="lagre">Legg til kort</button>
+    </div>
+    </div>
+    </form>
+    </div>
+    <div>
+        <h4>Rediger spiller</h4>
+        <form>
+            <div>
+                <div>Brukernavn (region)</div>
+                <input id="bruker" type="text">
+            </div>
+    </div>
+    <div>
+        <div>Alder (region)</div>
+        <input id="alder" type="text">
+    </div>
+    </div>
+    <div>
+        <div>Antall</div>
+        <input id="farge" type="color">
+    </div>
+    </div>
+    <div>
+        <div>Navn</div>
+        <input id="navn" type="text">
+    </div>
+    </div>
+    <div>
+        <button type="button" id="lagre">Legg til spiller</button>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    <div id="sonic">
+        <div id="sprite">
+
+        </div>
+    </div>
+    <script>
+        setup();
+    </script>
+</body>
+
+</html>
