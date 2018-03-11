@@ -1,5 +1,5 @@
 #meny {
-    background-image: linear-gradient(to right, black,#ccc);;
+    background-image: linear-gradient(to right, orange, yellow);;
     position: absolute;
         left: 0;
         bottom: 0%;
@@ -50,6 +50,7 @@
     background: url("bilder/logo.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: black;
     text-align: center;
     font-size: 2em;
     font-family: impact;
@@ -62,7 +63,10 @@
     bottom: 0%;
     width: 80%;
     height: 85%;
-    background: yellow;
+    background: #ffe259;
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+    background: linear-gradient(to right, #ffa751, #ffe259); 
+
     }
 
     
