@@ -5,39 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="asiashop.css">
-    <title>Asiashop</title>
+    <link rel="stylesheet" href="bestill.css">
+    <script src="vare.js"></script>
+    <title>Order item</title>
 </head>
 <body>
         <div id="meny">
                 <ul>
-                    <li> <a href="index.html">Home</a></li>
-                    <li> <a href="side2.html">Mat</a></li>
-                    <li> <a class="showing">Logg inn</a></li>
-                    <li> <a href="side4.html">Kontakt oss</a></li>
-                    <li> <a href="side5.html">Møbler</a></li>
-                    <li> <a href="side6.html">Spill</a></li>
-                    <li> <a href="side7.html">Klær</a></li>
-                    <li> <a href="side8.html">Bestill vare</a></li>
-                </ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="side2.html">Food</a></li>
+                        <li> <a href="side3.html">Login</a></li>
+                        <li> <a href="side4.html">Contact</a></li>
+                        <li> <a href="side5.html">Furnitures</a></li>
+                        <li> <a href="side6.html">Games</a></li>
+                        <li> <a href="side7.html">Clothes</a></li>
+                        <li> <a class="showing" href="side8.html">Order item</a></li>
+                        <li> <a href="side9.html">Questions?</a></li>
+                    </ul>
         </div>
         <div id="tittel">
         </div>
         <div id="innhold">
-                <form id="skjema">
-                        <header>
-                                <h1>Kundeskjema</h1>
-                                Bestill en vare!
-                            </header>
-                            <article>
-                                <div id="liste" class="kunde">
-                                    <div>
-                                        Velg vare
-                                        <span id="kundevelger"></span>
-                                    </div>
-                                </div>
-                                <div id="dyr" class="dyr">
-                                </div>
-                            </article>
+                <header>
+                        <h1>Kundeskjema</h1>
+                        Viser alle dyr som eies av en kunde
+                    </header>
+                    <article>
+                        <div id="liste" class="kunde">
+                            <div>
+                                Velg kunde
+                                <span id="kundevelger"></span>
+                            </div>
+                        </div>
+                        <div id="dyr" class="dyr">
+                        </div>
+                    </article>
+                
+                    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+                    <script>
+                        setup();
+                    </script>
         </div>
     
 </body>

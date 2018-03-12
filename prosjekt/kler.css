@@ -1,0 +1,70 @@
+#galleri {
+    position: relative;
+    width: 78vw;
+    height: 84vh;
+    border: solid black 1px;
+}
+
+.bilde {
+    position: absolute;
+    width: calc(600px - 50px);
+    height: calc(600px - 50px);
+    left: 400px;
+    top: 25px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    z-index: 1;
+    transition: 1s;
+}
+
+#b1 {
+    background-image: url("bilder/bk1.jpg");
+}
+
+#b2 {
+    background-image: url("bilder/bk2.jpg");
+}
+
+#b3 {
+    background-image: url("bilder/bk3.jpg");
+}
+
+#b4 {
+    background-image: url("bilder/bk4.jpg");
+}
+
+#b5 {
+    background-image: url("bilder/bk5.jpg");
+}
+
+#r1:checked~#b1 {
+    opacity: 1;
+}
+
+#r2:checked~#b2 {
+    opacity: 1;
+}
+
+#r3:checked~#b3 {
+    opacity: 1;
+}
+
+#r4:checked~#b4 {
+    opacity: 1;
+}
+
+#r5:checked~#b5 {
+    opacity: 1;
+}
+
+#galleri input {
+    position: relative;
+    z-index: 9;
+    margin-top: 80vh;
+    background-color: rgba(20, 20, 90, 0.3);
+}
+
+#r1 {
+    margin-left: calc((90vw - 100px) / 2);
+}
