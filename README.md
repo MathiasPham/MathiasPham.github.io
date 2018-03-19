@@ -1,7 +1,5 @@
 
 <title> Mathias Pham</title>
-</head>
- 
 <body>
 <div id="background">
 
