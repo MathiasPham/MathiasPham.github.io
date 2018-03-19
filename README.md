@@ -45,12 +45,6 @@
             </a>
         </li>
     </ul>
-</div>
-
-<a class="button1" href="https://mathiaspham.github.io/Dataustyr/"> HØYRE NABO ></a>
-<a class="button2" href="https://mariusbratvold.github.io/"> < VENSTRE NABO</a>
-
-</div>
 </body>
  
 </html>
