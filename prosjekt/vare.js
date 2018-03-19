@@ -1,13 +1,13 @@
 function setup() {
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyBVxqcvXQE4xQB0hkxpuBUF2DyndBVqDqg",
-        authDomain: "pham1-2be69.firebaseapp.com",
-        databaseURL: "https://pham1-2be69.firebaseio.com",
-        projectId: "pham1-2be69",
-        storageBucket: "pham1-2be69.appspot.com",
-        messagingSenderId: "331923555063"
-    };
+        apiKey: "AIzaSyA7piYf0zoeWJ9B7PVJlu-Ezl0F9NcW8dE",
+        authDomain: "asiashop-6042d.firebaseapp.com",
+        databaseURL: "https://asiashop-6042d.firebaseio.com",
+        projectId: "asiashop-6042d",
+        storageBucket: "asiashop-6042d.appspot.com",
+        messagingSenderId: "987227066780"
+      };
     firebase.initializeApp(config);
     let spanKunde = document.getElementById("kundevelger");
     let divDyr = document.getElementById("dyr");
