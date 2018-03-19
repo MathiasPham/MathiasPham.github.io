@@ -6,7 +6,7 @@
 <link rel="icon" href="ggg.png">
 <link rel="stylesheet" href="index.css">
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-<title> Sindre Thuestad</title>
+<title> Mathias Pham</title>
 </head>
  
 <body>
