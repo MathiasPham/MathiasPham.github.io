@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="ggg.png">
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<title> Sindre Thuestad</title>
+</head>
+ 
+<body>
+<div id="background">
 
-You can use the [editor on GitHub](https://github.com/MathiasPham/MathiasPham.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<div id="main">
+    <ul>
+        <li>
+            <h4> IT 1</h4>
+            <a href="Datautstyr/index.html"> Datautstyr
+            </a>
+        </li>
+        <li>
+            <a href="The Vision/index.html"> The Vision
+            </a>
+        </li>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <li>
+            <a href="rapidtech/index.html"> RapidTech
+            </a>
+        </li>
+    </ul>
+</div>
 
-### Markdown
+    <div id="main2">
+            <h5> IT 1</h5>
+    <ul>
+        <li>
+    
+            <a href="webshop/index.html"> Webshop
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            </a>
+        </li>
+        <li>
+            <a href="Dyrlege/dyrlege.html"> Webside - dyrleger
+            </a>
+        </li>
+    </ul>
+</div>
 
-```markdown
-Syntax highlighted code block
+<a class="button1" href="https://mathiaspham.github.io/Dataustyr/"> HØYRE NABO ></a>
+<a class="button2" href="https://mariusbratvold.github.io/"> < VENSTRE NABO</a>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MathiasPham/MathiasPham.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</div>
+</body>
+ 
+</html>
