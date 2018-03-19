@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
- 
-<head>
-<meta charset="UTF-8">
-<link rel="icon" href="ggg.png">
-<link rel="stylesheet" href="index.css">
-<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
 <title> Mathias Pham</title>
 </head>
  
@@ -20,8 +13,4 @@
             </a>
         </li>
 
-</div>
 
-</body>
- 
-</html>
