@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href ="quiz.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="icon" href="quizikon.png" type="image/png">
+<script src = "quiz.js"></script>
+<title>Ultimate quiz!</title>
+</head>
+
+
+<body>
+<h1>PhamQuiz</h1>
+<iframe src="kahoot.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<div id="timer">Du bør klare quizen innen <span id="time">01:00</span> sekunder</div>
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions"><h4>Hva er hovedstaden i Pakistan?</h4></p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions"><h4>Hva er hovedstaden i Vietnam?</h4></p>
+<input type = "radio" id = "mc" name = "question2" value = "Saigon">Saigon<br>
+<input type = "radio" id = "mc" name = "question2" value = "Hanoi">Hanoi<br>
+<input type = "radio" id = "mc" name = "question2" value = "Seoul">Seoul<br>
+
+<p class = "questions"><h4>Hva er hovedstaden i Kina</h4></p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Hong Kong">Hong Kong<br>
+<input type = "radio" id = "mc" name = "question3" value = "Shanghai">Shanghai<br>
+<input type = "radio" id = "mc" name = "question3" value = "Bejing">Bejing<br>
+
+
+<input id = "button" name= "button" type = "button" value = "Resultat" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+
+</body>
+</html>
+
+
